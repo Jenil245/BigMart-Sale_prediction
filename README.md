@@ -4,14 +4,13 @@
 
 This problem statement is part of a hackathon which was hosted by analytics vidhya.
 
-Dataset contains 8523 entries and 12 columns. We have 7 categorical columns and 5 numerical column. We have to predict bigmart sales based on different features.
+Dataset contains <b>8523 entries</b> and <b>12 columns</b>. We have 7 categorical columns and 5 numerical column. We have to predict bigmart sales based on different features.
 
 <h2>Project LifeCycle</h2>
 <ul>
   <li>
-    <b>Data Cleaning</b>: I replaced null values based on distribution of particular column. While exploring categorical data, I found that one of the column contained error in labeling. Different type of term were used for one specific label. I handle it by map funtion. Then I removed outliers. 
+    <b>Data Cleaning</b>: I replaced null values based on distribution of particular column. While exploring categorical data, I found that one of the column contained <b>error in labeling</b>. Different type of term were used for one specific label. I handle it by map funtion. Then I removed outliers. 
   </li>
-<li>
 <li>
   <b>DATA VISUALIZATION</b>: I visualized data with python seaborn-package which allows to create very good chart for statistical analysis. For inspecting numerical columns, I used box plots and histograms. Then I used barplot to see count distribution of categorical columns. Finally, I researched relationship between feature variable and target variable with pairplot.</li>
   <li>
