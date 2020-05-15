@@ -1,13 +1,21 @@
 # EDA_and_ML
+
+# About Project
+
+This problem statement is part of a hackathon which was hosted by analytics vidhya.
+
+Dataset contains 8523 entries and 12 columns. We have 7 categorical columns and 5 numerical column. We have to predict bigmart sales based on different features.
+
 <h2>Project LifeCycle</h2>
 <ul>
-<li>
-<b>EDA</b>: I explored data to see whether there is a duplication of data, null values, outliers, count distribution of categorical data </li>
-<li>
-  <b>DATA VISUALIZATION</b>: I visualized data with python seaborn-package which allows to create very good chart for statistical analysis.
-  I researched relationship between feature variable and target variable.</li>
   <li>
-    <b>FEATURE ENGINEERING</b>: I used various techniques to transform data so that it can be fed into model which are scaling, normalization, encoding, etc.
+    <b>Data Cleaning</b>: I replaced null values based on distribution of particular column. While exploring categorical data, I found that one of the column contained error in labeling. Different type of term were used for one specific label. I handle it by map funtion. Then I removed outliers. 
+  </li>
+<li>
+<li>
+  <b>DATA VISUALIZATION</b>: I visualized data with python seaborn-package which allows to create very good chart for statistical analysis. For inspecting numerical columns, I used box plots and histograms. Then I used barplot to see count distribution of categorical columns. Finally, I researched relationship between feature variable and target variable with pairplot.</li>
+  <li>
+    <b>FEATURE ENGINEERING</b>: I used various techniques to transform data so that it can be fed into model which are scaling, encoding, etc.
   </li>
   <li>
   <b>MODEL DEVELOPEMENT</b>:
