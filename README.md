@@ -1,4 +1,4 @@
-# EDA_and_ML
+# Bigmart Sale Prediction
 
 # About Project
 
