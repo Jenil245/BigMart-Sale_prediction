@@ -4,7 +4,7 @@
 
 This problem statement is part of a hackathon which was hosted by analytics vidhya.
 
-Dataset contains <b>8523 entries</b> and <b>12 columns</b>. We have 7 categorical columns and 5 numerical column. We have to predict bigmart sales based on different features.
+Dataset contains <b>8523 entries</b> and <b>12 columns</b>. We have 7 categorical columns and 5 numerical columns. We have to predict bigmart sales based on given features.
 
 <h2>Project LifeCycle</h2>
 <ul>
